@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Move_test/ProgrammTestMove.cs">
+    <Files>
+      <File FileName="Move_test/Move_test.cs" Line="9" Column="3" />
+      <File FileName="Move_test/ProgrammTestMove.cs" Line="12" Column="16" />
+      <File FileName="Move_test/InitTestMove.cs" Line="15" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Move_test" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="ProgrammTestMove.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

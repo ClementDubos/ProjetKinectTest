@@ -1,0 +1,17 @@
+C:\Users\Simon\Desktop\Kinect\VoiceTest\VoiceTest\bin\Debug\VoiceTest.exe.config
+C:\Users\Simon\Desktop\Kinect\VoiceTest\VoiceTest\bin\Debug\VoiceTest.exe
+C:\Users\Simon\Desktop\Kinect\VoiceTest\VoiceTest\bin\Debug\VoiceTest.pdb
+C:\Users\Simon\Desktop\Kinect\VoiceTest\VoiceTest\bin\Debug\Kinect.Toolbox.dll
+C:\Users\Simon\Desktop\Kinect\VoiceTest\VoiceTest\bin\Debug\Kinect.Toolbox.Voice.dll
+C:\Users\Simon\Desktop\Kinect\VoiceTest\VoiceTest\bin\Debug\Microsoft.Kinect.Toolkit.FaceTracking.dll
+C:\Users\Simon\Desktop\Kinect\VoiceTest\VoiceTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Simon\Desktop\Kinect\VoiceTest\VoiceTest\obj\x86\Debug\VoiceTest.exe
+C:\Users\Simon\Desktop\Kinect\VoiceTest\VoiceTest\obj\x86\Debug\VoiceTest.pdb
+E:\Kinect\VoiceTest\VoiceTest\bin\Debug\VoiceTest.exe.config
+E:\Kinect\VoiceTest\VoiceTest\obj\x86\Debug\VoiceTest.exe
+E:\Kinect\VoiceTest\VoiceTest\obj\x86\Debug\VoiceTest.pdb
+E:\Kinect\VoiceTest\VoiceTest\bin\Debug\VoiceTest.exe
+E:\Kinect\VoiceTest\VoiceTest\bin\Debug\VoiceTest.pdb
+E:\Kinect\VoiceTest\VoiceTest\bin\Debug\Kinect.Toolbox.dll
+E:\Kinect\VoiceTest\VoiceTest\bin\Debug\Kinect.Toolbox.Voice.dll
+E:\Kinect\VoiceTest\VoiceTest\bin\Debug\Microsoft.Kinect.Toolkit.FaceTracking.dll
