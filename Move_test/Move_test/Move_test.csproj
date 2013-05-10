@@ -32,13 +32,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Speech" />
     <Reference Include="WindowsBase" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.Kinect">
-      <HintPath>..\..\..\Téléchargements\DLL\Microsoft.Kinect.dll</HintPath>
+      <HintPath>..\..\..\..\Téléchargements\DLL\Microsoft.Kinect.dll</HintPath>
     </Reference>
-    <Reference Include="System.Speech">
-      <HintPath>..\..\..\Téléchargements\DLL\System.Speech.dll</HintPath>
+    <Reference Include="sysglobl">
+      <HintPath>..\..\DLL\sysglobl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Speech">
+      <HintPath>..\..\DLL\Microsoft.Speech.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

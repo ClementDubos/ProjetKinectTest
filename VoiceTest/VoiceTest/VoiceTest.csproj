@@ -35,6 +35,12 @@
     <Compile Include="MainClass.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Kinect.Toolbox">
+      <HintPath>..\..\DLL\Kinect Toolbox\Assemblies\Kinect.Toolbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Kinect.Toolbox.Voice">
+      <HintPath>..\..\DLL\Kinect Toolbox\Assemblies\Kinect.Toolbox.Voice.dll</HintPath>
+    </Reference>
     <Reference Include="System.Speech">
       <HintPath>..\..\..\Téléchargements\DLL\System.Speech.dll</HintPath>
     </Reference>
@@ -45,12 +51,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Presentation">
       <HintPath>..\..\..\Téléchargements\DLL\System.Windows.Presentation.dll</HintPath>
-    </Reference>
-    <Reference Include="Kinect.Toolbox">
-      <HintPath>..\..\..\Téléchargements\DLL\Kinect.Toolbox.dll</HintPath>
-    </Reference>
-    <Reference Include="Kinect.Toolbox.Voice">
-      <HintPath>..\..\..\Téléchargements\DLL\Kinect.Toolbox.Voice.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

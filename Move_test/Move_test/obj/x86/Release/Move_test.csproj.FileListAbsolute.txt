@@ -1,3 +1,5 @@
 C:\Users\Simon\Desktop\Kinect\Move_test\Move_test\bin\Release\Move_test.exe
 C:\Users\Simon\Desktop\Kinect\Move_test\Move_test\obj\x86\Release\ResolveAssemblyReference.cache
 C:\Users\Simon\Desktop\Kinect\Move_test\Move_test\obj\x86\Release\Move_test.exe
+E:\Kinect\Move_test\Move_test\obj\x86\Release\Move_test.exe
+E:\Kinect\Move_test\Move_test\bin\Release\Move_test.exe

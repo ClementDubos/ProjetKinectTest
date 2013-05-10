@@ -21,22 +21,21 @@ public class MainClass{
 	//Attribut
 	KinectSensor sensor;
     bool etat = false;
-    Stopwatch timeElaps = new Stopwatch() ;
+    //Stopwatch timeElaps = new Stopwatch() ;
     int i=0;
-    SerialPort port=new SerialPort("COM3",9600);
+    //SerialPort port=new SerialPort("COM3",9600);
     char c;
-	Thread workingThread;
 	//Requette
 
 	//Constructeur
 
 
 
-    public SerialPort getPort()
+   /* public SerialPort getPort()
     {
 
         return port;
-    }
+    }*/
 
 	static void Main (string[] args)
 	{
@@ -45,14 +44,14 @@ public class MainClass{
 		mClass.sensor = KinectSensor.KinectSensors [0];
 		mClass.sensor.Start ();
 		VoiceCommander voiceCommander = new VoiceCommander ("start", "close", "move");
+        voiceCommander.OrderDetected += mClass.voiceCommander_OrderDetected;
+            
 		voiceCommander.Start (mClass.sensor);
-        mClass.getPort().Open();
-		while (true) {
-
-			voiceCommander.OrderDetected += mClass.voiceCommander_OrderDetected;
-			workingThread.Sleep(500);
-
-		}
+       // mClass.getPort().Open();
+        while (true)
+        {
+            
+        }
 	}
 
 	void voiceCommander_OrderDetected (string order)
@@ -66,7 +65,7 @@ public class MainClass{
                 if (!etat)
                 {
                     etat=true;
-                    port.Write("a");
+                    //port.Write("a");
                     Console.WriteLine("a");
                     
                 }
@@ -75,8 +74,8 @@ public class MainClass{
             if (etat)
             {
                 etat = false;
-                port.Write("z");
-                
+               // port.Write("z");
+                Console.WriteLine("z");
             }
 			break;
 		case "move":
@@ -88,8 +87,8 @@ public class MainClass{
                     i++;
                    // timeElaps.Start();
                     c = (char)(96 + i);
-                    
-                    port.Write(""+c);
+                    Console.WriteLine(i + "");
+                   // port.Write(""+c);
                  //   timeElaps.Stop();
                 }
             }
@@ -99,7 +98,6 @@ public class MainClass{
 		default:
 			break;
 		}
-
 	}
 }
 

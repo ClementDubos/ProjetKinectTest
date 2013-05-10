@@ -8,3 +8,7 @@ C:\Users\Simon\Desktop\Kinect\Move_test\Move_test\obj\x86\Debug\Move_test.pdb
 C:\Users\Simon\Desktop\Kinect\Move_test\Move_test\bin\Debug\Move_test.exe
 C:\Users\Simon\Desktop\Kinect\Move_test\Move_test\bin\Debug\Move_test.pdb
 C:\Users\Simon\Desktop\Kinect\Move_test\Move_test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Kinect\Move_test\Move_test\obj\x86\Debug\Move_test.exe
+E:\Kinect\Move_test\Move_test\obj\x86\Debug\Move_test.pdb
+E:\Kinect\Move_test\Move_test\bin\Debug\Move_test.exe
+E:\Kinect\Move_test\Move_test\bin\Debug\Move_test.pdb
